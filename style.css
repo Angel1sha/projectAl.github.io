@@ -1,0 +1,155 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+main {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.nachal {
+	background-image: url(png/заглавная.png);
+	background-size: 1200px 400px;
+}
+
+nav {
+	display: flex;
+	background-color: #B22222;
+	color: #FF8C00;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.menu {
+	width: 800px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+
+li{
+	font-size: 20px;
+}
+
+.nachal {
+	display: flex;
+	flex-direction: column;
+	line-height: 50px;
+}
+
+.nach {
+	margin-top: 130px;
+	margin-left: 80px;
+	font-size: 50px;
+}
+
+.phone {
+	margin: 20px;
+}
+
+h2 {
+	margin-left: 90px;
+	margin-bottom: 130px;
+	font-size: 30px;
+}
+
+footer {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #B22222;
+}
+
+footer p {
+	color: #FF8C00;
+}
+
+.politic {
+	margin-right: 200px;
+	font-size: 20px;
+	
+}
+
+.prepod {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 400px;
+	width: 390px;
+	font-size: 40px;
+	border-color: #B22222;
+	border-width: 5px;
+	border-style: double;
+}
+
+.prd {
+	display: flex;
+	justify-content: space-around;
+	height: 270px;
+	
+}
+
+.prd img {
+	border-color: #B22222;
+	border-width: 5px;
+	border-style: double;
+}
+
+.prd p {
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+	border-color: #B22222;
+	border-width: 5px;
+	border-style: double;
+}
+
+.prepodov {
+	background-image: url(png/фончик.jpg);
+	background-size: 1200px 600px;
+}
+
+.kpo {
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.tabl {
+	width: 1200px;
+	height: 220px;
+	
+}
+
+tr {
+	font-size: 25px;
+	border-color: #B22222;
+	border-width: 3px;
+}
+
+td {
+	font-size: 25px;
+	border-color: #B22222;
+	border-width: 3px;
+}
+
+table {
+	border-color: #B22222;
+	border-width: 5px;
+}
+
+.kpo {
+	border-color: #FF8C00;
+	border-width: 5px;
+	border-style: double;
+}
+
+a:link {
+	text-decoration: none;
+}
